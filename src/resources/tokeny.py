@@ -10,5 +10,5 @@ def startup():
     "FEEDBACK_CHANNEL_ID" : 0
     })
 
-    with open("resources/config.json", "w") as outfile: 
+    with open("config.json", "w") as outfile: 
       outfile.write(json_object)
