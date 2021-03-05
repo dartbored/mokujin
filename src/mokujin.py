@@ -31,8 +31,8 @@ config2 = {
 }
 
 
-prefix = '§'
-description = 'The premier Tekken 7 Frame bot, made by Baikonur#4927, continued by Tib#1303'
+prefix = '~t7'
+description = 'The premier Tekken 7 Frame bot, made by Baikonur#4927, continued by Tib#1303, totally bonked by tairos#0377'
 bot = commands.Bot(command_prefix=prefix, description=description)
 
 # Set logger to log errors
