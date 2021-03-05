@@ -14,6 +14,8 @@ def startup():
 	}
 
 	json_object = json.dumps(datao)
+	
+	print(f'{json_object}')
 
 	with open("config.json", "w") as outfile: 
 		outfile.write(json_object)
