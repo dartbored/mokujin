@@ -75,7 +75,8 @@ async def on_ready():
     print('------')
 #     discord.customActivity()
     game = discord.Game("Tekken7 with the homies")
-    await bot.change_presence(activity=game)
+    watch = discord.Activity(type=discord.ActivityType.watching, name="and Exorcising")
+    await bot.change_presence(activity=watch)
     
     
     
