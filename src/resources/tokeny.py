@@ -4,7 +4,7 @@ import json
 def startup():
     TOKENN = os.environ['TOKEN']
     
-    print(f'TOKEN IS READY: {TOKEN[:7]}')
+    print(f'TOKEN IS READY: {TOKENN[:7]}')
 
     json_object = json.dumps({
     "DISCORD_TOKEN": TOKENN,
