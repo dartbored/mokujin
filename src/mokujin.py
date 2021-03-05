@@ -188,7 +188,7 @@ async def on_message(message):
                     result = util.display_moves_by_input(character, original_move)
             else:
                 result = embed.error_embed(f'Character {original_name} does not exist.')
-                delete_after = 5
+                delete_after = None
 
             bot_message = await channel.send(embed=result, delete_after=delete_after)
             if embed.MOVE_NOT_FOUND_TITLE == bot_message.embeds[0].title:
