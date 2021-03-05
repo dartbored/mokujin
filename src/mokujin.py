@@ -9,6 +9,7 @@ import json
 sys.path.insert(1, (os.path.dirname(os.path.dirname(__file__))))
 from functools import reduce
 from discord.ext import commands
+import discord
 from src import tkfinder, util
 from src.resources import embed, const
 from github import Github
@@ -72,6 +73,12 @@ async def on_ready():
     print(bot.user.name)
     print(bot.user.id)
     print('------')
+#     discord.customActivity()
+    game = discord.Game("Tekken7 with the homies")
+    bot.change_presence(activity=game)
+    
+    
+    
 
 @bot.event
 async def on_reaction_add(reaction, user):
