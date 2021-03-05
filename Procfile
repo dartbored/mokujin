@@ -1,1 +1,1 @@
-worker: python mokujin.py
+worker: python src/mokujin.py
