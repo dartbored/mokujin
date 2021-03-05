@@ -11,9 +11,9 @@ from discord.ext import commands
 from src import tkfinder, util
 from src.resources import embed, const
 from github import Github
-from resources.tokeny import startup
+from src.resources import tokeny
 
-startup()
+tokeny.startup()
 
 base_path = os.path.dirname(__file__)
 config = configurator.Configurator(os.path.abspath(os.path.join(base_path, "resources", "config.json")))
