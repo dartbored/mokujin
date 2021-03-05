@@ -26,7 +26,8 @@ class Configurator:
     def get_auto_delete_duration(self, channel_id) -> int:
         try:
             auto_delete = self.read_config()["auto_delete"]
-            duration = int(auto_delete[str(channel_id)])
+#             duration = int(auto_delete[str(channel_id)])
+            duration = -1
             if duration == -1:
                 duration = None
             return duration
