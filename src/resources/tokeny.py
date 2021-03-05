@@ -8,8 +8,8 @@ def startup():
 	print(f'TOKEN IS READY: {TOKENN[:4]}')
 
 	datao = {
-		"DISCORD_TOKEN": TOKENN,
-		"GITHUB_TOKEN": GHT,
+		"DISCORD_TOKEN": f'{TOKENN}',
+		"GITHUB_TOKEN": f'{GHT}',
 		"FEEDBACK_CHANNEL_ID" : 0
 	}
 
