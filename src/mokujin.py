@@ -79,7 +79,7 @@ async def on_reaction_add(reaction, user):
         item_index = const.EMOJI_LIST.index(reaction.emoji) if reaction.emoji in const.EMOJI_LIST else -1
 
         if item_index > -1:
-            delete_after = config.get_auto_delete_duration(reaction.message.channel.id)
+            delete_after = None
             content = reaction.message.embeds[0].description.replace('\n', '\\n').split("\\n")
             character_name = util.get_character_name_from_content(content)
             character = tkfinder.get_character_detail(character_name)
@@ -87,7 +87,7 @@ async def on_reaction_add(reaction, user):
             move = move_list[item_index]
 
             result = util.display_moves_by_input(character, move)
-            await reaction.message.channel.send(embed=result, delete_after=delete_after)
+            await reaction.message.channel.send(embed=result, delete_after=None)
             await reaction.remove(bot.user)
 
 
@@ -170,7 +170,7 @@ async def on_message(message):
 
         elif message.content.startswith('!') and len(message.content[1:].split(' ', 1)) > 1:
 
-            delete_after = config.get_auto_delete_duration(channel.id)
+            delete_after = None
             user_message_list = message.content[1:].split(' ', 1)
 
             original_name = user_message_list[0].lower()
