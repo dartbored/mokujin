@@ -12,14 +12,25 @@ from discord.ext import commands
 from src import tkfinder, util
 from src.resources import embed, const
 from github import Github
-from src.resources import tokeny
+# from src.resources import tokeny
 
-tokeny.startup()
+# tokeny.startup()
 
 base_path = os.path.dirname(__file__)
 config = configurator.Configurator(os.path.abspath(os.path.join(base_path, "resources", "config.json")))
-with open('src/resources/config.json', 'r') as openfilec:
-    config2 = json.load(openfilec)
+
+TOKENN = os.environ['TOKEN']
+GHT = os.environ['GH']
+
+# print(f'TOKEN IS READY: {TOKENN[:4]}')
+
+config2 = {
+    "DISCORD_TOKEN": f'{TOKENN}',
+    "GITHUB_TOKEN": f'{GHT}',
+    "FEEDBACK_CHANNEL_ID" : 0
+}
+
+
 prefix = '§'
 description = 'The premier Tekken 7 Frame bot, made by Baikonur#4927, continued by Tib#1303'
 bot = commands.Bot(command_prefix=prefix, description=description)
