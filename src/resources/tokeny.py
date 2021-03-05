@@ -3,12 +3,13 @@ import json
 
 def startup():
     TOKENN = os.environ['TOKEN']
+    GHT = os.environ['GH']
     
     print(f'TOKEN IS READY: {TOKENN[:7]}')
 
     json_object = json.dumps({
     "DISCORD_TOKEN": TOKENN,
-    "GITHUB_TOKEN": "",
+    "GITHUB_TOKEN": GHT,
     "FEEDBACK_CHANNEL_ID" : 0
     })
 
