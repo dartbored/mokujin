@@ -4,6 +4,7 @@ import logging
 import os
 import sys
 import configurator
+import json
 
 sys.path.insert(1, (os.path.dirname(os.path.dirname(__file__))))
 from functools import reduce
@@ -17,6 +18,7 @@ tokeny.startup()
 
 base_path = os.path.dirname(__file__)
 config = configurator.Configurator(os.path.abspath(os.path.join(base_path, "resources", "config.json")))
+config2 = json.load('resources/config.json')
 prefix = '§'
 description = 'The premier Tekken 7 Frame bot, made by Baikonur#4927, continued by Tib#1303'
 bot = commands.Bot(command_prefix=prefix, description=description)
@@ -40,9 +42,14 @@ formatter = logging.Formatter('%(asctime)s : %(levelname)s : %(name)s : %(messag
 file_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
 
-discord_token = config.read_config()['DISCORD_TOKEN']
-feedback_channel_id = config.read_config()['FEEDBACK_CHANNEL_ID']
-github_token = config.read_config()['GITHUB_TOKEN']
+# discord_token = config.read_config()['DISCORD_TOKEN']
+# feedback_channel_id = config.read_config()['FEEDBACK_CHANNEL_ID']
+# github_token = config.read_config()['GITHUB_TOKEN']
+
+discord_token = config2['DISCORD_TOKEN']
+feedback_channel_id = config2['FEEDBACK_CHANNEL_ID']
+github_token = config2['GITHUB_TOKEN']
+
 gh = Github(login_or_token=github_token)
 
 
