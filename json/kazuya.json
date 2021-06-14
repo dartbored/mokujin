@@ -13,10 +13,10 @@
     {
         "Block frame": "+5~+6",
         "Command": "in rage f,n,d,d/f+1+4",
-        "Counter hit frame": "Launch",
+        "Counter hit frame": "KND",
         "Damage": "41",
         "Gif": "",
-        "Hit frame": "Launch",
+        "Hit frame": "KND",
         "Hit level": "m",
         "Notes": "Rage drive",
         "Start up frame": "18~19 (21~) cs1~"
@@ -584,7 +584,7 @@
         "Command": "Opponent Down d+3+4",
         "Counter hit frame": "-1",
         "Damage": "20",
-        "Gif": "",
+        "Gif": "https://gfycat.com/phonythirddutchsmoushond.gif",
         "Hit frame": "-1",
         "Hit level": "On grounded opponent(l)",
         "Notes": "",
@@ -1399,6 +1399,7 @@
         "Hit frame": "Launch (JG?)",
         "Hit level": "h",
         "Notes": "",
+        "Recovery" : "-24",
         "Start up frame": "11~12 (14~)"
     },
     {

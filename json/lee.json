@@ -613,7 +613,7 @@
     {
         "Block frame": "-17",
         "Command": "d+3",
-        "Counter hit frame": "KND",
+        "Counter hit frame": "Launch",
         "Damage": "17",
         "Gif": "https://gfycat.com/BlaringFabulousHousefly.gif",
         "Hit frame": "-3",
@@ -624,7 +624,7 @@
     {
         "Block frame": "-15",
         "Command": "d+3,4",
-        "Counter hit frame": "KND",
+        "Counter hit frame": "Launch",
         "Damage": "15",
         "Gif": "",
         "Hit frame": "-1",
@@ -916,6 +916,7 @@
         "Hit frame": "+8~+10s (KND)",
         "Hit level": "m,(HMS)",
         "Notes": "",
+        "Recovery" : "-20",
         "Start up frame": "20~22"
     },
     {
@@ -2176,6 +2177,7 @@
         "Hit frame": "+7~+9s (KND)",
         "Hit level": "m",
         "Notes": "",
+        "Recovery" : "-21",
         "Start up frame": "20~22"
     },
     {

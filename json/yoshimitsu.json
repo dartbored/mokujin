@@ -315,7 +315,7 @@
         "Block frame": "-20",
         "Command": "f+3,3",
         "Counter hit frame": "KND",
-        "Damage": "32,21",
+        "Damage": "24,16",
         "Gif": "https://gfycat.com/FatalRepulsiveAmericancurl.gif",
         "Hit frame": "KND",
         "Hit level": "h,l (TC)",
@@ -534,7 +534,7 @@
     {
         "Block frame": "-12~-11",
         "Command": "d+2,2",
-        "Counter hit frame": "CS",
+        "Counter hit frame": "Launch",
         "Damage": "16,22",
         "Gif": "",
         "Hit frame": "+7~+8",
@@ -2542,7 +2542,7 @@
         "Command": "NSS 1,2,1",
         "Counter hit frame": "-1",
         "Damage": "9,10,8",
-        "Gif": "https://gfycat.com/NewQuaintAmmonite.gif",
+        "Gif": "",
         "Hit frame": "-1",
         "Hit level": "h,m,m",
         "Notes": "",
@@ -2871,15 +2871,15 @@
         "Start up frame": "48~51"
     },
     {
-        "Block frame": "-",
+        "Block frame": "-4",
         "Command": "NSS u/f+1+2",
-        "Counter hit frame": "-",
-        "Damage": "-",
+        "Counter hit frame": "KND",
+        "Damage": "24",
         "Gif": null,
-        "Hit frame": "-",
+        "Hit frame": "+5s",
         "Hit level": "(Special) (TJ)",
         "Notes": "",
-        "Start up frame": " RC"
+        "Start up frame": "24 js9~"
     },
     {
         "Block frame": "-8~-7 OC",
@@ -3539,7 +3539,7 @@
         "Block frame": "-6~-5",
         "Command": "NSS WS 4",
         "Counter hit frame": "+5~+6",
-        "Damage": "18",
+        "Damage": "14",
         "Gif": "",
         "Hit frame": "+5~+6",
         "Hit level": "m",
@@ -3578,22 +3578,6 @@
         "Hit level": "m",
         "Notes": "",
         "Start up frame": "12"
-    },
-    {
-        "Alias": [
-            "NSS u/b+1",
-            "NSS u+1",
-            "NSS u/f+1"
-        ],
-        "Block frame": "-8",
-        "Command": "NSS u/b_u_u/f+1",
-        "Counter hit frame": "+3",
-        "Damage": "16",
-        "Gif": "",
-        "Hit frame": "+3",
-        "Hit level": "m (TJ)",
-        "Notes": "",
-        "Start up frame": "18"
     },
     {
         "Alias": [
@@ -4118,7 +4102,7 @@
         "Block frame": "-6~-5",
         "Command": "WS 4",
         "Counter hit frame": "+5~+6",
-        "Damage": "18",
+        "Damage": "14",
         "Gif": "",
         "Hit frame": "+5~+6",
         "Hit level": "m",
@@ -4161,13 +4145,13 @@
     {
         "Block frame": "-4",
         "Command": "u/f+1",
-        "Counter hit frame": "KND",
-        "Damage": "-",
+        "Counter hit frame": "Launch",
+        "Damage": "24",
         "Gif": "https://gfycat.com/BreakableSaltyHummingbird.gif",
-        "Hit frame": "+s",
+        "Hit frame": "+5s",
         "Hit level": "m (TJ)",
         "Notes": "",
-        "Start up frame": "18"
+        "Start up frame": "24 js9~"
     },
     {
         "Block frame": "-16",

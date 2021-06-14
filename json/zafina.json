@@ -13,11 +13,11 @@
     {
         "Block frame": "+19g",
         "Command": "In Rage f+2+3",
-        "Counter hit frame": "throw",
+        "Counter hit frame": "Launch",
         "Damage": "10,20",
         "Gif": "",
-        "Hit frame": "throw",
-        "Hit level": "m (throw)",
+        "Hit frame": "Launch",
+        "Hit level": "m",
         "Notes": "Rage Drive",
         "Start up frame": "14"
     },
@@ -952,7 +952,7 @@
         "Hit frame": "KND",
         "Hit level": "h",
         "Notes": "Homing,Screw",
-        "Start up frame": "15"
+        "Start up frame": "14-15(15~)"
     },
     {
         "Block frame": "+4",
@@ -1524,7 +1524,7 @@
         "Hit frame": "+8k",
         "Hit level": "m,m (TJ)",
         "Notes": "Screw",
-        "Start up frame": "18"
+        "Start up frame": "18 cs6~"
     },
     {
         "Block frame": "-23",

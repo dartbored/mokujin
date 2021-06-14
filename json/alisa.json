@@ -711,7 +711,7 @@
         "Hit level": "m (TJ),m",
         "Notes": "",
         "Recovery": "-33",
-        "Start up frame": "js1~"
+        "Start up frame": "15~16 js9~"
     },
     {
         "Alias": [
@@ -849,10 +849,10 @@
     },
     {
         "Block frame": "-",
-        "Command": "f,F+1+2 When hit 2",
+        "Command": "f,F+1+2:2",
         "Counter hit frame": "CS",
         "Damage": "5,18,2*6",
-        "Gif": "",
+        "Gif": "https://firebasestorage.googleapis.com/v0/b/tekken-guru.appspot.com/o/moves%2Falisa%2F074.mp4?alt=media",
         "Hit frame": "CS",
         "Hit level": "mm,m x 6,(DES)",
         "Notes": "",
@@ -934,7 +934,7 @@
         "Block frame": "-5~-4",
         "Command": "WS 1,2",
         "Counter hit frame": "+6~+7",
-        "Damage": "12,9",
+        "Damage": "12,12",
         "Gif": "",
         "Hit frame": "+6~+7",
         "Hit level": "m,h",
@@ -1867,7 +1867,7 @@
             "u/f+3"
         ],
         "Block frame": "-57~-56",
-        "Command": "(u/b_u_u/f)+3",
+        "Command": "u/f+3",
         "Counter hit frame": "-29~-28 (SH)",
         "Damage": "15",
         "Gif": "",
@@ -1875,7 +1875,7 @@
         "Hit level": "m(TJ)",
         "Notes": "",
         "Recovery": "-31",
-        "Start up frame": "20~21 js9~"
+        "Start up frame": "17 js9~"
     },
     {
         "Block frame": "-9~-8",

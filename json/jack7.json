@@ -136,7 +136,7 @@
         "Command": "f+1,2",
         "Counter hit frame": "+5~+6",
         "Damage": "13,13",
-        "Gif": "https://gfycat.com/UntriedTightHalicore.gif",
+        "Gif": "",
         "Hit frame": "+5~+6",
         "Hit level": "m,h",
         "Notes": "",
@@ -208,6 +208,7 @@
         "Notes": "",
         "Start up frame": "15~16 (66~)"
     },
+
     {
         "Alias": [
             "Toe Kick"
@@ -471,7 +472,7 @@
         "Block frame": "-11",
         "Command": "d/b+1,1,1,2",
         "Counter hit frame": "KND",
-        "Damage": "13,5,5,21",
+        "Damage": "16,5,5,21",
         "Gif": "https://gfycat.com/ScaredFrequentGermanshorthairedpointer.gif",
         "Hit frame": "KND",
         "Hit level": "l,l,l,m",
@@ -636,7 +637,7 @@
         "Block frame": "-9~-7",
         "Command": "u/b+1+2",
         "Counter hit frame": "KND",
-        "Damage": "25",
+        "Damage": "30",
         "Gif": "https://gfycat.com/FemaleFlatLeafhopper.gif",
         "Hit frame": "KND",
         "Hit level": "h",
@@ -791,7 +792,7 @@
         "Notes": "",
         "Start up frame": "31~40 (32~) js1~"
     },
-    {
+    {   "Alias": ["debug","debugger"],
         "Block frame": "-37~-36",
         "Command": "b,d/b,d,d/f+1",
         "Counter hit frame": "KND",
@@ -826,13 +827,13 @@
     },
     {
         "Block frame": "+21g",
-        "Command": "HCF,1 (one spin)",
+        "Command": "HCF+1",
         "Counter hit frame": "KND",
         "Damage": "30",
         "Gif": "https://gfycat.com/acclaimedsimpleboaconstrictor.gif",
         "Hit frame": "KND",
         "Hit level": "m",
-        "Notes": "",
+        "Notes": "check hcf+1 (two spins)",
         "Start up frame": "17(43~)"
     },
     {
@@ -1916,7 +1917,7 @@
         "Block frame": "-12",
         "Command": "f+2",
         "Counter hit frame": "KND",
-        "Damage": "17",
+        "Damage": "20",
         "Gif": "https://gfycat.com/ClosedTimelyJaguar.gif",
         "Hit frame": "+5",
         "Hit level": "h",
@@ -1993,7 +1994,7 @@
         "Block frame": "-12",
         "Command": "d/b+1",
         "Counter hit frame": "+2",
-        "Damage": "13",
+        "Damage": "15",
         "Gif": null,
         "Hit frame": "+2",
         "Hit level": "l",

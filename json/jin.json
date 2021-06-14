@@ -1085,6 +1085,7 @@
         "Hit frame": "KND (JG)",
         "Hit level": "m",
         "Notes": "",
+        "Recovery" : "-22",
         "Start up frame": "23~25 (24~)"
     },
     {
@@ -1395,6 +1396,7 @@
         "Hit frame": "Launch (S!)",
         "Hit level": "h",
         "Notes": "",
+        "Recovery" : "-24",
         "Start up frame": "11~12 (14~)"
     },
     {
@@ -1529,7 +1531,7 @@
         "Command": "opponent down d+2",
         "Counter hit frame": "+3~+4",
         "Damage": "24 (grounded 19)",
-        "Gif": "",
+        "Gif": "https://gfycat.com/measlymindlessbaiji.gif",
         "Hit frame": "+3~+4",
         "Hit level": "l",
         "Notes": "",
@@ -1730,7 +1732,7 @@
         "Command": "ZEN 4",
         "Counter hit frame": "KND (JG?)",
         "Damage": "20",
-        "Gif": "",
+        "Gif": "https://firebasestorage.googleapis.com/v0/b/tekken-guru.appspot.com/o/moves%2Fjin%2F041.mp4?alt=media",
         "Hit frame": "KND (JG?)",
         "Hit level": "l(TC)",
         "Notes": "",
