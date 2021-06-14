@@ -176,7 +176,7 @@ async def on_message(message):
 
             await channel.send(embed=result)
 
-        elif message.content.startswith('!') and len(message.content[1:].split(' ', 1)) > 1:
+        elif message.content.startswith('!') and len(message.content[1:].split(' ', 1)) > 1 and not message.content.startswith('!wiki'):
 
             delete_after = None
             user_message_list = message.content[1:].split(' ', 1)
